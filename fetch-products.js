@@ -80,7 +80,7 @@ categoryLinks.forEach(link => {
     });
 });
 
-// Tilføj event listener til filtreringsknap
+//Tilføj event listener til filtreringsknap
 document.getElementById('filter-price').addEventListener('click', filterProductsByPrice);
 
 // Hent data ved indlæsning af siden
