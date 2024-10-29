@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiFi-Shop-Category-List</title>
+    <link rel="stylesheet" href="CSS/global.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/hifi-shop-categpry.css">
+    <script type="module" src="fetch-products.js" defer></script>
+    <script src="https://kit.fontawesome.com/d8ae1f5673.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav__ul__1">
+                <li>
+                    <form action="">
+                        <input placeholder="Search entire store here..." id="search" name="search" type="text">
+                    </form>
+                    <button id="search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </li>
+                <li>
+                    <i class="fa-solid fa-user"></i>
+                    <p>ACCOUNT</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p>CART</p>
+                </li>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-phone"></i>
+                </li>
+                <li>
+                    <i class="fa-regular fa-envelope"></i>
+                </li>
+            </ul>
+            <ul class="nav__ul__2">
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT OS</a></li>
+                <li><a href="hifi-brands.html">BRANDS</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">EVENTS</a></li>
+                <li><a href="hifi-shop-frontpage.html">SHOP</a></li>
+                <li><a href="">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1><span id="category-name"></span></h1>
+        <div class="category_sort_box">
+            <p>SORT BY</p>
+            <label for="max-price">Max Price:</label>
+            <input type="number" id="max-price" placeholder="Enter max price">
+            <button id="filter-price" type="button">Filter by Price</button>
+        </div>
+
+        <div class="category_box">
+            <div class="category_left_box">
+                <p><a href="#" class="category-link" data-category="amplifiers">Amplifiers</a></p><br>
+                <p><a href="#" class="category-link" data-category="speakers">Speakers</a></p><br>
+                <p><a href="#" class="category-link" data-category="turntables">Turntables</a></p><br>
+                <p><a href="#" class="category-link" data-category="cd-players">CD Players</a></p><br>
+                <p><a href="#" class="category-link" data-category="dvd-afspiller">DVD Afspiller</a></p><br>
+                <p><a href="#" class="category-link" data-category="effektforstaerkere">Effektforstaerkere</a></p><br>
+                <p><a href="#" class="category-link" data-category="int-forstaerkere">Int forstaerkere</a></p><br>
+                <p><a href="#" class="category-link" data-category="roser-forstaerkere">Roser forstaerkere</a></p><br>
+            </div>
+            <div id="product-list"></div>
+        </div>
+        <div class="category_left_box">
+            <h2>SHOP BY</h2>
+        </div>
+
+
+
+    </main>
+    <footer>
+        <div class="footer-left">
+            <div class="footer-left-adress">
+                <p>Hi-Fi Corner</p>
+                <p>Edinburgh 1a Haddington Place EH7 4AE</p>
+                <p>Falkirk 44 Cow Wynd FK1 1PU</p>
+            </div>
+            <div>
+                <p class="footer-left-refund">RETURNS & REFUNDS</p>
+            </div>
+        </div>
+
+
+        <div class="footer-right">
+            <div>
+                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+                <i class="fa-brands fa-cc-paypal"></i>
+            </div>
+            <div>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
