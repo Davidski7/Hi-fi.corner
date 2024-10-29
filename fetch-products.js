@@ -5,8 +5,9 @@ let category = params.get('category');
 // Her opdaterer jeg kategori-navnet i HTMLen, så brugeren ved, hvilken kategori de kigger på.
 document.getElementById('category-name').textContent = category;
 
-// Her laver jeg en dynamisk URL, som skal bruges til at hente data for den specifikke kategori. 
-const url = (category) => `http://localhost:3000/${category}`;
+// URL til JSON data på GitHub
+const dataUrl = "https://raw.githubusercontent.com/Davidski7/Hi-fi.corner/refs/heads/main/db.json";
+
 
 // Jeg opretter en tom liste, som skal gemme produkterne fra den valgte kategori.
 let categoryProducts = [];
