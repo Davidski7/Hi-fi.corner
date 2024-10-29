@@ -1,0 +1,53 @@
+/* Nav'erne er forskellige på alle sider, men det her er den kode som går igen mest */
+
+nav {
+  width: 100vw;
+  height: 50px;
+  z-index: 100;
+}
+.nav__ul__1 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  color: white;
+  gap: 1em;
+  background-color: black;
+  align-items: center;
+  height: 40px;
+  padding-right: 2em;
+}
+.nav__ul__1 li:nth-child(4) {
+  background-color: rgb(66, 66, 164);
+  display: flex;
+  align-items: center;
+  padding: 0.3em;
+  gap: 0.2em;
+  border-radius: 5%;
+  list-style-type: none;
+}
+.nav__ul__2 {
+  list-style: none;
+  display: flex;
+  z-index: 101;
+  height: 40px;
+  margin: 0 auto;
+  align-items: center;
+  background-color: black;
+  justify-content: center;
+  gap: 1em;
+}
+.nav__ul__2 a{
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+.nav__ul__2 li {
+  font-size: 12px;
+  text-align: center;
+}
+
+.nav__ul__2 li:nth-child(6) a {
+  color: gold;
+}

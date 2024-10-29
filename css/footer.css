@@ -1,0 +1,19 @@
+/*Her kommer alt styling til footer*/
+
+
+.footer_box{
+    background-color: blanchedalmond;
+}
+
+.nav__ul__3{
+width: 100%;
+display: flex;
+justify-content: flex-end;
+list-style: none;
+color: white;
+gap: 1em;
+/* Det sidste komma, efter RGB, er opacity! (0.6) */
+align-items: center;
+height: 40px;
+padding-right: 2em;
+}

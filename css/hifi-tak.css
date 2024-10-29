@@ -1,0 +1,38 @@
+  /* Generel styling */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Container for takke-beskeden */
+.thank-you-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 30px; /* Giver mere afstand mellem h1 og h2 */
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #555;
+    margin-top: 0; /* Fjerner ekstra plads over h2 */
+}
+
+#purchased-product {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #ff6600; /* Fremhæv produktnavnet med en farve */
+    margin-top: 10px;
+}

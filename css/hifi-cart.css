@@ -1,0 +1,177 @@
+
+
+
+
+
+/*Her kommer styling til dataen*/
+h1{
+    margin-top: 100px;   
+   margin-left: 750px;
+}
+.cart-item{
+    
+    background-color: white;
+    box-shadow: 0px 15px 40px rgba(0.3, 0.3, 0.3, 0.8);
+    border-radius: 18px;
+    width: 400px;
+   margin-left: 700px;
+}
+.cart-item img{
+    margin-left: 80px;
+}
+.cart-product-details{
+    text-align: center;
+}
+
+
+
+/*Her kommer styling til formular*/
+
+#besked {
+    margin-top: 0.7em;
+    text-align: right;
+    color: #F00;
+  }
+  
+  input[type="submit"] {
+    color: #000000;
+    background: linear-gradient(200.82deg, #FFE9E9 27.89%, #F9C4D2 83.86%);
+    padding: 14px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 18px;
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.3);
+  
+    margin-right: 350px;
+  }
+  
+  input[type="submit1"] {
+    color: #000000;
+    background: linear-gradient(200.82deg, #FFE9E9 27.89%, #F9C4D2 83.86%);
+    padding: 14px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 18px;
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.3);
+  
+    margin-right: 350px;
+  }
+
+  .nubox{
+    background-color: darkblue;
+    box-shadow: 0px 15px 40px rgba(0.3, 0.3, 0.3, 0.8);
+    border-radius: 18px;
+    width: 500px;
+   margin-left: 700px;
+   margin-top: 150px;
+  }
+
+  .nubox p{
+    color: white;
+  }
+
+.nubox h2{
+    color: white;
+}
+
+/*Her kommer der styling til faktuering*/
+
+.Fakturering1 {
+    background-color: darkblue;
+    width: 400px;
+    height: 538px;
+    margin-top: 100px;
+    border-radius: 18px;
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Betalingsoversigt {
+    width: 470px;
+    height: 738px;
+    background-color: #FFE9E9;
+    margin-top: 100px;
+    border-radius: 18px;
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.3);
+    margin-left: 100px;
+  }
+  
+  .begge{
+    display: flex;
+    
+  }
+  
+  .text{
+  margin-right: 350px;
+  margin-top: 30px;
+  display: flex;
+  gap: 230px;
+  padding: 40px;
+  }
+  
+  h3{
+    margin-right: 120px;
+    margin-top: 40px;
+  }
+  
+  .priser{
+    display: flex;
+    gap: 100px;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    
+  }
+  .priser1{
+    display: flex;
+    gap: 110px;
+    margin-left: 100px;
+  }
+  
+  .priser2{
+    display: flex;
+    gap: 145px;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  
+  .priser3{
+    display: flex;
+    gap: 100px;
+    margin-top: 40px;
+    margin-left: 140px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .priser4{
+    display: flex;
+    gap: 100px;
+    margin-top: 40px;
+    margin-left: 133px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .priser5{
+    display: flex;
+    gap: 100px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    
+  }
+  
+  
+  img{
+    margin-top: 30px;
+  }
+
+  .Fakturering1 p{
+    color: white;
+  }
+  
+  

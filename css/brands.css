@@ -1,0 +1,116 @@
+/* Vi skal bruge en unik nav til Frontpagen, da den skal have et hul over sig i toppen, som ikke går igen på de andre sider */
+body {
+    background-image: url('../img/your-background-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    
+    background-color: #f0f0f0;
+}
+
+
+nav {
+    width: 100vw;
+    height: 50px;
+    z-index: 100;
+    top: 3em;
+    position: relative;
+
+}
+
+.nav__ul__1 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    color: white;
+    gap: 1em;
+    /* Det sidste komma, efter RGB, er opacity! (0.6) */
+    background-color: rgb(0, 0, 0, 0.6);
+    align-items: center;
+    height: 40px;
+    padding-right: 2em;
+}
+
+.nav__ul__1 li:nth-child(4) {
+    background-color: rgb(70, 70, 140);
+    display: flex;
+    align-items: center;
+    padding: 0.3em;
+    gap: 0.2EM;
+    border-radius: 5%;
+}
+
+.nav__ul__2 {
+    list-style: none;
+    display: flex;
+    z-index: 101;
+    height: 40px;
+    margin: 0 auto;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    gap: 1em;
+
+}
+
+.nav__ul__2 li {
+    font-size: 12px;
+    text-align: center;
+}
+
+.nav__ul__2 li:nth-child(3) a {
+    color: gold;
+}
+
+.nav__ul__2 a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Her kommer alt styling til indhold på siden*/
+.top_brands{
+    margin-top: 100px;
+    color: black;
+    display: flex;
+    gap: 1500px;
+}
+
+.frontpage__images__large {
+    min-width: 100%;
+    max-height: 1600px;
+}
+
+
+/*Her kommer styling til brands_box*/
+
+.brands_box{
+    display: flex;
+    background-color: white;
+    width: 1250px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+.brands_box_right{
+    background-color: black;
+    width: 607px;
+    height: 342px;
+    margin-top: 30px;
+}
+.brands_box_left{
+    margin-top: 30px;
+}
+
+p{
+    color: white;
+}
+h2{
+    color: gold;
+}
+h3{
+    color: gold;
+}
+
