@@ -8,7 +8,7 @@ const productPrice = document.querySelector('#shop-single-page-wrapper-right-pri
 
 // Her opdaterer jeg HTML-elementerne med data fra productData, så brugeren kan se det rigtige produktbillede, navn og pris.
 if (productData) {
-    // Jeg sætter billedets src til produktets foto og tilføjer en alt-tekst med produktets navn for tilgængelighed.
+    //Jeg sætter billedets src til produktets foto og tilføjer en alt-tekst med produktets navn for tilgængelighed.
     imagePreview.src = productData.photo;
     imagePreview.alt = productData.name;
     
